@@ -1,0 +1,135 @@
+1. Avand o tabla de sah si un rege asezat pe o pozitie random pe acea tabla, sa se parcurga intreaga tabla de sah, astfel incat regele sa treaca cel mult o data printr-o casuta.
+
+2. Avand o tabla de sah si un cal asezat pe o pozitie random pe acea tabla, sa se parcurga intreaga tabla de sah, astfel incat calul sa treaca cel mult o data printr-o casuta.
+
+3. Se citeste un numar n. Generati si afisati toate combinatiile de cate n cifre binare care nu au doua cifre de 1 alaturate.
+
+4. Se citesc n numere naturale. Determinati o asezare a acestor numere sub forma unui cerc, astfel incat suma produselor de cate doua numere alaturate sa fie maxima.
+date.in
+6
+1 8 3 2 5 4
+date.out
+1 2 4 8 5 3
+
+5. Se citeste un numar natural n. Afisati permutarile multimii 1,2,3,...,n in care pana la jumatate elementele sunt in ordine descrescatoare, iar de la jumatate pana la final in ordine crescatoare.
+
+6. Se citeste un numar natural n. Afisati permutarile multimii 1,2,3,...,n in care pana la jumatate elementele sunt in ordine crescatoare, iar de la jumatate pana la final in ordine descrescatoare.
+
+7. Se citesc doua numere naturale n si k, k fiind mai mic decat numarul de cifre al numarului n. Afisati cel mai mare numar care se poate forma eliminand k cifre din numarul n.
+n=3452234
+k=4
+numarul cautat este 544
+
+8. Se citeste un numar natural n. Afisati permutarile multimii 1,2,3,...,n in care elementele pare sunt puncte fixe (se afla pe pozitie egale cu valoarea lor).
+
+9. Se citeste un numar natural n. Afisati permutarile multimii 1,2,3,...,n in care elementele impare sunt puncte fixe (se afla pe pozitie egale cu valoarea lor).
+
+10. Folosind metoda divide et impera, scrieti o functie care sa determine daca un tablou cu elemente intregi este ordonat crescator.
+
+11. Se citesc 3 numere naturale S, n si e cu urmatoarele semnificatii: S este o suma de bani care trebuie platita folosind bancnote care au valori puterile lui e de la 0 la n. Sa se afiseze modalitatea de plata folosind un numar minim de bancnote de tipurile precizate. Sa se afiseze la final numarul de bancnote folosite. (256, 10, 2)
+
+12. Într-o sala de spectacol trebuie planificate n spectacole intr-o zi. Pentru fiecare spectacol se cunosc ora de inceput si ora de terminare (numere intregi). Sa se planifice un numar maxim de spectacole astfel incat sa nu fie doua spectacole care sa se suprapuna.
+date.in
+7
+2  4
+8 11
+5  6
+5  8
+3  7
+7  8
+9 12
+date.out:
+2, 4, 5, 6, 7, 8, 9, 12
+
+13. Sa se verifice daca intr-o expresie parantezele se inchid corect ex.
+a{b[c]d}e // corect
+a[b{c}d]e} //incorect.
+
+14. O padure este impartita in n X m zone. In fiecare zona creste cate un pom. Din fiecare pom cade pe jos o cantitate de ghinde. In zona stanga sus se afla o veverita care vrea sa ajunga in zona dreapta jos. Veverita se poate deplasa doar pe doua directii: in jos sau spre dreapta.
+Determinati cantitatea maxima de fructe pe care le poate aduna veverita prin deplasarea din pozitia initiala in cea dorita.
+3 3 output 7
+0 4 1
+0 1 1
+1 0 1
+
+15. Creati doua liste: o lista ce contine numere pare si o lista ce contine numere impare. Numerele se vor citi de la tastatura pana cand se introduce -1.
+
+16. Creati o lista ce contine un anumit numar de numere reale. Scrieti o functie ce introduce un nod ce contine media fiecaror doua noduri vecine, intre cele doua noduri.
+
+17. Sa se construiasca o lista liniara simplu inlantuita cu elemente numere intregi. Sa se inverseze sensul legaturilor din lista.
+
+18. Sa se construiasca o lista liniara simplu inlantuita cu elemente numere intregi. Sa se stearga toate numerele pare.
+
+19. Creati o lista ce contine un anumit numar de numere reale. Scrieti o functie ce introduce un nod ce contine diferenta fiecaror doua noduri vecine, intre cele doua noduri.
+
+20. Dupa o vacanta de 3 luni, te intorci acasa si gasesti o gramada de scrisori in cutia postala. Avand in vedere ca printre scrisori se afla si facturi ce trebuie platite urgent si diverse reclame, trebuie sa le sortezi in functie de prioritate. Elaboreaza un astfel de algoritm in C sau C++ pentru a transforma stiva de corespondenta intr-o coada de prioritati.
+
+21. Implementati un algoritm de cautare binara, care imparte sirul in trei parti aproximativ egale, nu in doua.
+
+22. Avem doua array-uri sortate A si B de marime n. Scrieti un algoritm care gaseste mediana arrayului obtinut dupa ce doua arrayuri au fost unite (lungimea arrayului este 2n).
+
+23. Dat fiind un array de task-uri, in care fiecare task are un deadline si un profit asociat daca task-ul este finalizat inainte de deadline. Fiecare task se termina intr- o unitate de timp, deci cel mai scurt deadline este 1. Sa se aranjeze task-urile astfel incat profitul sa fie maximizat. (GREEDY)
+JobID Deadline Profit
+	a 		2 	100
+	b 		1 	 19
+	c 		2 	 27
+	d 		1 	 25
+	e 		3 	 15
+Output:
+c, a, e
+
+24. Se da o tija de n cm si un array de preturi care contine preturile tuturor bucatilor de tija de marime mai mica decat n. Sa se determine valoarea maxima ce se poate obtine daca se taie tija si se vinde pe bucati. (Ex. daca lungimea este 8 si valorile bucatilor sunt urmatoarele atunci profitul maxim este 22). (programare dinamica)
+lungime |  1  2  3  4  5  6  7  8
+---------------------------------
+pret    |  1  5  8  9 10 17 17 20
+
+25. Sa se scrie un program care afiseaza toate permutarile unui string. (ABC: ABC, ACB, BAC, BCA, CAB, CBA). Folositi un algoritm de backtracking.
+
+26. Dat fiind un array sortat si un numar x, sa se gaseasca o pereche in array astfel incat suma elementelor perechii sa fie cea mai apropiata de x.
+Input: arr[] = {10, 22, 28, 29, 30, 40}, x = 54
+Output: 22 and 30
+
+27. Calculati multimea numerelor complexe c Mandelbrot, definite prin: f(n+1) = f(n)^2 + c, f(0) = c.
+
+28. Scrieti un program in C care sa contina o functie recursiva si una iterativa care preia un parametru de tip string si un parametru ce reprezinta lungimea stringului si care returneaza acelasi string, dar in inversat.
+
+29. Scrieti un program in C care sa contina o functie recursiva si o functie iterativa count_spaces(char *s) care numara cate spatii libere apar intr-un string.
+
+30. Scrieti un program in C care sa contina o functie recursiva si o functie iterativa replace(char *s, char from, char to) care schimba toate aparitiile lui from din s in to. (replace(steve, e,a) = stava).
+
+31. Scrieti un program in C care sa afiseze o lista simplu inlantuita in ordine inversa.
+
+32. Scrieti un program in C care sa afiseze triunghiul lui Pascal pentru n dat.
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1
+
+33. Implementati MergeSort pentru liste simplu inlantuite.
+
+34. Implementati QuickSort pentru liste simplu inlantuite.
+
+35. Implementati InsertionSort pentru liste simplu inlantuite.
+
+36. Implementati ShellSort pentru liste simplu inlantuite.
+
+37. Implementati SelectionSort pentru liste simplu inlantuite.
+
+38. Verificati daca un numar este palindrom.
+
+39. Verificati daca un numar este par sau impar.
+
+40. Scrieti un program care afla maximul din 4 numere.
+
+41. Scrieti un program care interschimba 3 valori. (input a = 2, b=3, c=4, output:a=3, b=4, c=2).
+
+42. Scrieti un program care returneaza un numar inversat (ex. input 1234567, ouptu 7654321).
+
+43. Verificati daca un numar poate fi scris ca suma a doua numere prime.
+
+44. Scrieti un program care calculeaza suma primelor n numere naturale recursiv.
+
+45. Scrieti un program care calculeaza produsul primelor n numere naturale recursiv.
+
+46. Scrieti un program care rescrie invers o propozitie folosind recursivitate. ('afara este foarte cald', dlac etraof etse arafa).
